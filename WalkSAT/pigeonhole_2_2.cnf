@@ -1,0 +1,15 @@
+c
+c CNF representation of pigeonhole problem for 2 pigeons and 2 holes
+c
+c Encoding:
+c - Variable x_p,h is true iff pigeon p is in hole h
+c - Every pigeon must be in some hole
+c - No more than one pigeon in any hole
+c
+c Note: These clauses are unsatisfiable if n>m.
+c
+p cnf 4 4
+1 2 0
+3 4 0
+-1 -3 0
+-2 -4 0

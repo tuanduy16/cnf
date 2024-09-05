@@ -1,0 +1,10 @@
+c Clauses representation:
+c P1_1 -> P1
+c P1_2 -> P2
+c P1_3 -> P3
+c P2_1 -> P4
+c P2_2 -> P5
+c P3_1 -> P6
+c NOT P1_1
+p cnf 6 1
+-1 0

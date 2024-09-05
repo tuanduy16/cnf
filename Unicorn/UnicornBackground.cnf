@@ -1,0 +1,18 @@
+c Unicorn's Background Knowledge
+c Clauses representation:
+c Mythical -> 1
+c Immortal -> 2
+c Mammal -> 3
+c Horned -> 4
+c Magical -> 5
+c 1 -> 2 = NOT 1 OR 2
+c NOT 1 -> NOT 2 AND 3 = NOT 1 OR (NOT 2 AND 3) = (1 OR NOT 2) AND (1 OR 3)
+c 2 OR 3 -> 4 = NOT(2 OR 3) OR 4 = (NOT 2 AND NOT 3) OR 4 = (NOT 2 OR 4) AND (NOT 3 OR 4)
+c 4 -> 5 = NOT 4 OR 5
+p cnf 5 6
+-1 2 0
+1 -2 0
+1 3 0
+-2 4 0
+-3 4 0
+-4 5 0

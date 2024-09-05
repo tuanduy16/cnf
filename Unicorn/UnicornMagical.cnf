@@ -1,0 +1,9 @@
+c Unicorn is magical
+c Clauses representation:
+c Mythical -> 1
+c Immortal -> 2
+c Mammal -> 3
+c Horned -> 4
+c Magical -> 5
+p cnf 5 1
+5
